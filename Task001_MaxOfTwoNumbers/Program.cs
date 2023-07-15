@@ -12,9 +12,11 @@ if (num == num1)
 }
 if (num > num1)
 {
-    Console.WriteLine("Первое число больше второго!");
+Console.WriteLine($"Max = {num}");
+Console.WriteLine($"Min = {num1}");
 }
 if (num1 > num)
 {
-    Console.WriteLine("Второе число больше первого!");
+Console.WriteLine($"Max = {num1}");
+Console.WriteLine($"Min = {num}");
 }
