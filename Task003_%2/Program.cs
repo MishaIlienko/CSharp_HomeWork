@@ -10,5 +10,5 @@ if (n == num % 2)
 }
 else
 {
-    Console.WriteLine("Ваше число является не четным");
+    Console.WriteLine("Ваше число НЕ является четным!");
 }
