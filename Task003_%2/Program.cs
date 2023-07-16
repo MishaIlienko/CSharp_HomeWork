@@ -3,8 +3,7 @@
 Console.WriteLine("Введите число!");
 string inputed = Console.ReadLine();
 int num = Convert.ToInt32(inputed);
-int n = 0;
-if (n == num % 2)
+if (num % 2 == 0)
 {
     Console.WriteLine("Ваше число является четным");
 }
