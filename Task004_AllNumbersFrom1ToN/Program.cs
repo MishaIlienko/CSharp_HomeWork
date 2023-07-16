@@ -3,9 +3,10 @@
 Console.WriteLine("Введите число!");
 string input = Console.ReadLine();
 int num = Convert.ToInt32(input);
+Console.WriteLine ($"Все четные числа от 1 до {num}");
 int x = 2;
 while (x <= num)
 {
-    Console.Write($" {x}");
+    Console.Write ($" {x}");
     x+=2;
 }
